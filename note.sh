@@ -28,7 +28,7 @@ function note {
     fi
 
     if ! type "terminal-notifier" > /dev/null; then
-        echo 'The `note` functions needs the terminal-notifier`'
+        echo 'The `note` function needs the terminal-notifier`'
         echo '   `brew install terminal-notifier`'
     else
         local ML_TERM_NOTE_NR msg
